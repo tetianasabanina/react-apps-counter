@@ -1,0 +1,47 @@
+.counterHook {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin: 5%;
+}
+.circleHook {
+    height: 300px;
+    width: 300px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    font-size: 100px; 
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 15px 30px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.odd {
+    background-color: rgba(0, 171, 231, 1);
+}
+.even {
+    background-color: rgba(0, 129, 175, 1);
+}
+.dozen {
+    background-color: rgba(139, 30, 63, 1);
+}
+.neutral {
+    background-color: rgba(131, 137, 75, 1);
+}
+.buttonsHook {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10% 0;
+}
+button {
+    padding: 10px;
+    color: rgb(158, 74, 74);
+    background-color: grgba(203, 144, 77, 1);
+    border-radius: 20px;
+    margin: 8px;
+    font-size: 1.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
