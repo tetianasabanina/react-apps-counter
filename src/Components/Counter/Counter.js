@@ -11,21 +11,10 @@ class Counter extends Component {
     backgroundHandler = (counter) => {
         
         console.log(this.state.number);
-        if (counter === 0) {
-            console.log("number 0: "+ this.state.number);
-            console.log("background: "+ this.state.background);
-            this.color = "grey";
-        } else if (counter%10 === 0) {
-            console.log("number 10x: "+ this.state.number);
-            this.color = "goldenrod";
-        } else if (counter%2 === 0) {
-            console.log("number 2x: "+ this.state.number);
-            this.color = "darkred";
-        } else {
-            console.log("number not 2x: "+ this.state.number);
-            this.color = "blue";
-        }
-        return this.color;
+        return counter === 0 ? this.color = "grey"
+            :  counter%10 === 0 ? this.color = "goldenrod"
+            :  counter%2 === 0 ? this.color = "red"
+            :  this.color = "blue"
     }
 
     addHandler = () => {

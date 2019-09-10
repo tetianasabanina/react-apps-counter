@@ -19,6 +19,7 @@ html, body {
     align-items: center;
     justify-content: center;   
     font-size: 100px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
 
@@ -35,4 +36,5 @@ button {
     border-radius: 10px;
     margin: 8px;
     font-size: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
