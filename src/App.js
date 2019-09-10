@@ -1,10 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Counter from './Components/Counter/Counter';
 import './App.css';
 
-class App extends Component {
-
-   render () {
+const App = () => {
+   
     return (
 
       <div>
@@ -12,6 +11,5 @@ class App extends Component {
       </div>
     )
   }
-}
 
 export default App;
