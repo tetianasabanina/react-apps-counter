@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Title.css';
 
-const Title = () => {
+const Title = () => { 
     return (
         <div className="header">
             <button>Smart Counter</button>
