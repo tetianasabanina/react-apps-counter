@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-apps-counter/static/css/main.a458ca52.chunk.css",
+    "main.js": "/react-apps-counter/static/js/main.c485d038.chunk.js",
+    "main.js.map": "/react-apps-counter/static/js/main.c485d038.chunk.js.map",
+    "runtime~main.js": "/react-apps-counter/static/js/runtime~main.19b34ae7.js",
+    "runtime~main.js.map": "/react-apps-counter/static/js/runtime~main.19b34ae7.js.map",
+    "static/js/2.bd025bb9.chunk.js": "/react-apps-counter/static/js/2.bd025bb9.chunk.js",
+    "static/js/2.bd025bb9.chunk.js.map": "/react-apps-counter/static/js/2.bd025bb9.chunk.js.map",
+    "index.html": "/react-apps-counter/index.html",
+    "precache-manifest.f9640577dc2ab0613a9a128460eb0fb1.js": "/react-apps-counter/precache-manifest.f9640577dc2ab0613a9a128460eb0fb1.js",
+    "service-worker.js": "/react-apps-counter/service-worker.js",
+    "static/css/main.a458ca52.chunk.css.map": "/react-apps-counter/static/css/main.a458ca52.chunk.css.map"
+  }
+}
